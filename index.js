@@ -18,7 +18,8 @@ var card=require('./lib/card/cardBlockTuned')
 function tgd(buffer){
 
     if(buffer[0]==0x76){
-        var f=new Vu(buffer)
+        //var f=new Vu(buffer)
+        card(buffer)
     }else{
         card(buffer)
     }

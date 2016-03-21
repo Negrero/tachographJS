@@ -6,7 +6,8 @@
 var fs=require('fs')
 var FileTGD=require('../index')
 
-fs.readFile('C:\\Users\\negrero\\workspace\\tachograph-structure\\a.TGD',
+//fs.readFile('C:\\Users\\negrero\\workspace\\tachograph-structure\\a.TGD',
+fs.readFile('C:\\Users\\negrero\\workspace\\tachograph-structure\\76a.TGD',
 //fs.readFile('path/file.tgd',
     function (err, data) {
         if (err) {
